@@ -27,7 +27,7 @@ public class Calculator {
      {
      int ai = Integer.valueOf(a);   // μετατροπη σε ακεραιους
      int bi = Integer.valueOf(b);
-     int result = ai +bi ;
+     int result = ai + bi ;
 
      // kai epistrofi me antikeimeno response http response me status 200 oti
          // esto ola tha pane kala kai entity to result
