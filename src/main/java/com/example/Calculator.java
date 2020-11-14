@@ -18,7 +18,7 @@ public class Calculator {
     //https://javaproject-maven.herokuapp.com/cal/Add/52/48
    // 52 ,48  einai oi dyo oroi arithmoi gia to calculator
     @GET
-    @Path("Add/ {a} / {b}")   //δηλωση και εδω τις παραμετρους
+    @Path("Add/{a}/{b}")   //δηλωση και εδω τις παραμετρους
     @Produces(MediaType.APPLICATION_JSON)
 
     public Response adder(
